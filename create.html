@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account</title>   
+</head>
+<body>
+    <h2>
+        Create New Account
+    </h2>
+    <form action="/create_account" method="POST">
+        <label>Name:</label><br/>
+        <input type="text" name="name" required><br/><br/>
+        <label>Address:</label><br/>
+        <input type="text" name="address" required><br/><br/>
+        <label>Contact:</label><br/>
+        <input type="text" name="contact" required><br/><br/>
+        <label>Initial Deposit:</label><br/>
+        <input type="number" name="Initial_deposit" required><br/><br/>
+        <button type="submit">Create account</button>   
+    </form>
+</body>
+</html>
